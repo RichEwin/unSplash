@@ -1,7 +1,11 @@
 import React from 'react';
+import Search from './components/Search';
+import './styling/index.scss';
 
 const App = () => (
-  <h1>Hello World!</h1>
+  <div>
+    <Search />
+  </div>
 );
 
 export default App;
