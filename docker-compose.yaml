@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  unsplash:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    command: "npm run docker-start"
+    environment:
+      REACT_APP_UNSPLASH_KEY: ${REACT_APP_UNSPLASH_KEY}
+    ports:
+      - "8080:8080"
