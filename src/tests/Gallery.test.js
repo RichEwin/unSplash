@@ -25,7 +25,7 @@ describe('<Gallery />', () => {
     expect(wrapper.find('img').key()).toEqual('gDPaDDy6_WE');
   });
 
-  it('', () => {
+  it('expects img src to match unsplash.com', () => {
     const wrapper = shallow(<Gallery searchResults={searchResults}/>)
     expect(wrapper.find('img').prop("src")).toMatch('unsplash.com');
   });

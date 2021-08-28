@@ -3,8 +3,8 @@ import '../styling/Error.scss';
 
 const Error = () => (
   <div className="error">
-    <div>oops, that search did not find anything</div>
-    <div>try something else</div>
+    <p>oops, that search did not find anything</p>
+    <p>try something else</p>
   </div>
 );
 
