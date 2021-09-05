@@ -7,7 +7,7 @@ An onClick event handler triggers the request, which fetches images based on the
 
 Throughout the build of this project, I adhered to TDD and used [pull requests](https://github.com/RichEwin/unSplash/commits/master) to manage the workflow.
 
-Check it out => https://unsplashmobiento.herokuapp.com/
+Check it out => https://usplash.herokuapp.com/
 
 ## How to run
 
